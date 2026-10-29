@@ -1,0 +1,20 @@
+{
+  "name": "aero-shell-runtime",
+  "version": "0.1.0",
+  "description": "Local process supervision for Aero",
+  "type": "module",
+  "private": true,
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aero-devops/shell.git"
+  },
+  "license": "MIT"
+}
